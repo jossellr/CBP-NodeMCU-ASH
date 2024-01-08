@@ -1,3 +1,6 @@
+const int SENSOR_PIN = 13;
+const int LED_PIN = 15;
+ 
 void setup() 
 {
     Serial.begin(9600);
