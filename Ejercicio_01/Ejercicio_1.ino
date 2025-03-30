@@ -4,9 +4,9 @@ const int LED_PIN = 13;
 void blink(const int _current_value)
 {
   if (_current_value == HIGH)
-    digitalWrite(led_pin, LOW);
+    digitalWrite(LED_PIN, LOW);
   else
-    digitalWrite(led_pin, HIGH);
+    digitalWrite(LED_PIN, HIGH);
 }
 
 void setup() 
@@ -18,5 +18,4 @@ void loop()
 {
   blink(digitalRead(LED_PIN));  // Se lee el valor actual del LED y se le pasa a la función.
   delay(1000);  // Espera de un segundo.
-}
 }

@@ -18,8 +18,10 @@ void loop()
         // Se enciende el LED con un color específico.
         digitalWrite(RED_PIN, r);
         digitalWrite(GREEN_PIN, g);
-        digitalWrite(BLUE_PIN, b);
+        digitalWrite(BLUE_PIN, b); 
 
         delay(1000);
       }
     }
+  }
+}
