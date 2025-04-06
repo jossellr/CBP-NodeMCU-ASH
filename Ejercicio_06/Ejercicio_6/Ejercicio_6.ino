@@ -9,5 +9,5 @@ void setup()
 
 void loop() 
 {
-    digitalWrite(PIN_LED, digitalRead(PIN_BUTTON));
+  digitalWrite(PIN_LED, digitalRead(PIN_BUTTON));
 }

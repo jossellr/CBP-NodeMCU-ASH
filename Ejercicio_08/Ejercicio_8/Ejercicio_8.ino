@@ -14,7 +14,7 @@ void loop()
   // Hacemos limpieza del trigger y el eco.
   digitalWrite(TRIGGER_PIN, LOW);   
   digitalWrite(ECHO_PIN, LOW);   
-  delayMicroseconds(2);
+  delayMicros econds(2);
 
   // Indicamos el inicio del pulso y esperamos 20 μs.
   digitalWrite(TRIGGER_PIN, HIGH);  

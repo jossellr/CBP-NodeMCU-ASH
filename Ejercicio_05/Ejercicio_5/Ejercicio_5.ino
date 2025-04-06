@@ -10,16 +10,16 @@ void setup() {
 
 void loop() {
   // Varía la posición de 0 a 180 grados, con esperas de 15ms.
-  for (posicion = 0; position <= 180; posicion += 1) 
+  for (position = 30; position <= 150; position += 1) 
   {
-    servo.write(posicion);              
-    delay(15);                       
+    servo.write(position);              
+    delay(50);                       
   }
 
   // Varía la posición de 180 a 0 grados, con esperas de 15ms.
-  for (posicion = 0; position <= 180; posicion += 1) 
+  for (position = 150; position >= 30; position -= 1) 
   {
-    servo.write(posicion);              
-    delay(15);                       
+    servo.write(position);              
+    delay(50);                       
   }
 }

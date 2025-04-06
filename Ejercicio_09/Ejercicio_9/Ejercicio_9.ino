@@ -24,8 +24,8 @@ void loop()
   }
 
   // Finalmente, mostramos la información.
-  Serial.println("Humidity: ");
+  Serial.print("Humidity: ");
   Serial.print(humidity); Serial.print("%.");
   Serial.print(" - Temperature: ");
-  Serial.print(temperature); Serial.print(" *C");
+  Serial.print(temperature); Serial.print(" *C\n");
 }
